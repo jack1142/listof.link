@@ -1,0 +1,25 @@
+{
+  "name": "listof.link",
+  "version": "1.0.0",
+  "description": "List of various links to cool projects I've encountered",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack1142/listof.link.git"
+  },
+  "author": "Jakub Kuczys",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jack1142/listof.link/issues"
+  },
+  "homepage": "https://listof.link",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
